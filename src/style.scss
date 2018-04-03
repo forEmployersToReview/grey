@@ -1,0 +1,33 @@
+$toughGrey: grey;
+$lightGrey: #b9b9b9;
+
+body {
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+h3,
+h4,
+p {
+  font-size: 13px;
+  margin: 0px;
+  color: $lightGrey;
+}
+
+h2 {
+  font-weight: 500;
+  margin-bottom: 0px;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+h3 {
+  color: $toughGrey;
+}
+
+// Imports running below global style changes.
+@import './components/style';
+@import './containers/style';

@@ -1,0 +1,132 @@
+body {
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0px; }
+
+h3,
+h4,
+p {
+  font-size: 13px;
+  margin: 0px;
+  color: #b9b9b9; }
+
+h2 {
+  font-weight: 500;
+  margin-bottom: 0px;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 15px; }
+
+h3 {
+  color: grey; }
+
+.elem-vessel-wrap {
+  border: 1px solid white;
+  border-radius: 3px;
+  box-shadow: 0px 0px 1px 2px #c7c7c7;
+  max-height: 300px;
+  width: 400px;
+  overflow: scroll;
+  display: flex;
+  height: 80px;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-between;
+  transition: border 0.1s ease; }
+  .elem-vessel-wrap:hover {
+    border: 1px solid #ccc; }
+
+.elem-vessel-section {
+  display: flex;
+  justify-content: space-between;
+  height: 31px; }
+
+.elem-vessel-title {
+  align-items: center;
+  margin: 0px; }
+  .elem-vessel-title h3,
+  .elem-vessel-title h4 {
+    font-size: 13px; }
+  .elem-vessel-title h4 {
+    font-weight: 500; }
+
+.elem-vessel-status {
+  margin-top: 2px; }
+
+.elem-vessel-expand {
+  background: transparent;
+  border-radius: 2px;
+  height: 20px;
+  font-weight: 500;
+  box-shadow: none;
+  border: 1px solid #dedede;
+  cursor: pointer;
+  color: grey;
+  transition: border 0.1s ease; }
+  .elem-vessel-expand:hover {
+    border: 1px solid grey; }
+
+.elem-vessel-capacity {
+  align-self: flex-end; }
+
+.elem-container-wrap, .des-container-wrap {
+  width: 400px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 1px 2px #c7c7c7;
+  display: flex;
+  max-height: 100vh;
+  overflow: scroll;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-between; }
+
+.elem-container-title {
+  color: grey; }
+
+.elem-container-ids {
+  padding-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.elem-container {
+  border: 1px solid #b9b9b9;
+  transition: border 0.1s ease;
+  margin: 5px 7px 3px 5px;
+  padding: 4px;
+  border-radius: 2px; }
+  .elem-container:hover {
+    border: 1px solid grey; }
+
+.elem-separator {
+  height: 1px;
+  border: none;
+  border-bottom: 1px solid #b9b9b9; }
+
+.elem-box-wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.des-section-wrapper {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between; }
+
+.des-container-wrap {
+  min-height: 330px; }
+
+.elem-h2 {
+  text-align: center;
+  color: black; }
+
+.elem-header {
+  height: 40px;
+  box-shadow: 0px 1px 1px #d4d4d4;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: upercase;
+  color: #6b6b6b; }
